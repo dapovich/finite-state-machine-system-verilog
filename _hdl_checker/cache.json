@@ -1,0 +1,510 @@
+{
+ "builder": {
+  "_version": "10.3c",
+  "_modelsim_ini": {
+   "name": "c:\\Studing\\Group-project-education\\VHD_Practice\\LEMZ\\finite-state-machine\\_hdl_checker\\modelsim.ini",
+   "__class__": "Path"
+  },
+  "_logger": "hdl_checker.builders.msim",
+  "_work_folder": "c:\\Studing\\Group-project-education\\VHD_Practice\\LEMZ\\finite-state-machine\\_hdl_checker",
+  "_builtin_libraries": [
+   {
+    "name": "synopsys",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_mf",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_lnsim",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "fiftyfivenm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "220model_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneive_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "fiftyfivenm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_mf_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "220model",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "verilog",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "lpm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxii_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneive",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "ieee",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "std_developerskit",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sv_std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sgate",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "vital2000",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "modelsim_lib",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxii",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_lnsim_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "lpm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sgate_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "_added_libraries": [
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "not_in_project",
+    "case_sensitive": true,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "MSim"
+ },
+ "config_file": [
+  {
+   "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\hdl_checker_project_pid8860_vp1bt0ox.json",
+   "__class__": "Path"
+  },
+  1635945940.4995852,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "c:\\Studing\\Group-project-education\\VHD_Practice\\LEMZ\\finite-state-machine\\fsm.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1635946040.6526794,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\tmpct90z_g4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\tmpabzeeh3s.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\tmprqrfpcq0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "c:\\Studing\\Group-project-education\\VHD_Practice\\LEMZ\\finite-state-machine\\fsm.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\tmp3m7w_fn7.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "C:\\Users\\Danil\\AppData\\Local\\Temp\\nvimoapuj9\\tmp_eqw7v8k.sv",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "c:\\Studing\\Group-project-education\\VHD_Practice\\system_verilog\\test_concatenation_operator\\fsm_test.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fsm_test",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "c:\\Studing\\Group-project-education\\VHD_Practice\\LEMZ\\finite-state-machine\\fsm.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "fsm",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}

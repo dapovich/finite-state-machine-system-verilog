@@ -1,0 +1,26 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project test
+# reading C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fsm
+# Compile of fsm.sv failed with 8 errors.
+# Compile of fsm.sv failed with 3 errors.
+# Compile of fsm_tb.sv failed with 3 errors.
+# 2 compiles, 2 failed with 6 errors.
+# Compile of fsm.sv was successful.
+# Compile of fsm_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.fsm_tb
+# vsim -gui 
+# Start time: 16:22:10 on Nov 07,2021
+# Loading sv_std.std
+# Loading work.fsm_tb
+# Loading work.fsm
+# ** Warning: (vsim-3839) C:/Studing/Group-project-education/VHD_Practice/LEMZ/finite-state-machine/fsm_tb.sv(9): Variable '/fsm_tb/l_led', driven via a port connection, is multiply driven. See C:/Studing/Group-project-education/VHD_Practice/LEMZ/finite-state-machine/fsm_tb.sv(12).
+# 
+#         Region: /fsm_tb
+add wave -position end sim:/fsm_tb/UUT/*
+run
+# That is the end of the simulation.
+quit
+# End time: 16:24:20 on Nov 07,2021, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 1
