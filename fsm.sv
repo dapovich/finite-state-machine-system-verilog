@@ -15,7 +15,6 @@ module fsm
 
   // Counter equals the time = (2^28 / 50 000 000) = 5,36 seconds
   logic [27:0] l_cnt = {28{1'b0}};
-
   always @(posedge i_clk)
     begin
       if (i_sw == 4'b0001)
